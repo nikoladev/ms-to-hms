@@ -1,0 +1,36 @@
+{
+  "name": "ms-to-hms",
+  "version": "1.0.0",
+  "description": "Tiny module that converts milliseconds to an h:mm:ss string",
+  "license": "MIT",
+  "author": "Nikola Pilipović",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikoladev/ms-to-hms.git"
+  },
+  "homepage": "https://github.com/nikoladev/ms-to-hms#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | tap-spec"
+  },
+  "keywords": [
+    "h:mm:ss",
+    "hh:mm:ss",
+    "ms",
+    "milliseconds",
+    "seconds",
+    "minutes",
+    "hours",
+    "time",
+    "format",
+    "zero dependencies",
+    "no dependencies",
+    "dependency free",
+    "small",
+    "tiny"
+  ],
+  "devDependencies": {
+    "tap-spec": "~5.0.0",
+    "tape": "~4.9.1"
+  }
+}
